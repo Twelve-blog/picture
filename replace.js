@@ -3,6 +3,7 @@ const PI = Math.PI;
 var r = {};
 
 r.replace = function(answers) {
+    answers = answers.replace(/蹈/g, "踌躇");
     answers = answers.replace(/调帐/g, "惆怅");
     answers = answers.replace(/任悔/g, "忏悔");
     answers = answers.replace(/仟悔/g, "忏悔");
