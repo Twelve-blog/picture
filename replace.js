@@ -3,6 +3,7 @@ const PI = Math.PI;
 var r = {};
 
 r.replace = function(answers) {
+    answers = answers.replace(/.阳湖/g, "潘阳湖");
     answers = answers.replace(/饮鸽止渴/g, "饮鸩止渴");
     answers = answers.replace(/何族/g, "侗族");
     answers = answers.replace(/切碳/g, "切磋");
