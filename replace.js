@@ -6,6 +6,7 @@ r.replace = function(answers) {
     if(answers.indexOf('戈')!=-1&&answers.indexOf('矛')!=-1) answers = answers.replace(/载/g, "戟");
     if(answers.indexOf('泰')!=-1&&answers.indexOf('樱')!=-1) answers = answers.replace(/泰/g, "菽");
     if(answers.indexOf('缘')!=-1&&answers.indexOf('舜')!=-1) answers = answers.replace(/缘/g, "鲧");
+    answers = answers.replace(/淞/g, "雾凇");
     answers = answers.replace(/.阳湖/g, "潘阳湖");
     answers = answers.replace(/赔然失色/g, "黯然失色");
     answers = answers.replace(/相形见细/g, "相形见绌");
