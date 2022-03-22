@@ -7,6 +7,8 @@ r.replace = function(answers) {
     if(answers.indexOf('戈')!=-1&&answers.indexOf('矛')!=-1) answers = answers.replace(/载/g, "戟");
     if(answers.indexOf('泰')!=-1&&answers.indexOf('樱')!=-1) answers = answers.replace(/泰/g, "菽");
     if(answers.indexOf('缘')!=-1&&answers.indexOf('舜')!=-1) answers = answers.replace(/缘/g, "鲧");
+    answers = answers.replace(/夏然而止/g, "戛然而止");
+    answers = answers.replace(/垫伏/g, "蛰伏");
     answers = answers.replace(/从我/g, "从戎");
     answers = answers.replace(/跨踏/g, "踌躇");
     answers = answers.replace(/漂岭/g, "嘌呤");
