@@ -8,6 +8,11 @@ r.replace = function(answers) {
     if(answers.indexOf('泰')!=-1&&answers.indexOf('樱')!=-1) answers = answers.replace(/泰/g, "菽");
     if(answers.indexOf('缘')!=-1&&answers.indexOf('舜')!=-1) answers = answers.replace(/缘/g, "鲧");
     if(answers.indexOf('放松活动')!=-1&&answers.indexOf('基本活动')!=-1) answers = answers.replace(/一/g, "");
+    answers = answers.replace(/链而走险/g, "铤而走险");
+    answers = answers.replace(/母康置疑/g, "毋庸置疑");
+    answers = answers.replace(/JI/g, "川");
+    answers = answers.replace(/叫苦不送/g, "叫苦不迭");
+    answers = answers.replace(/虫胡/g, "蝴");
     answers = answers.replace(/鱼鲤/g, "鱼鳔");
     answers = answers.replace(/沉缅/g, "沉湎");
     answers = answers.replace(/表秀/g, "裴秀");
