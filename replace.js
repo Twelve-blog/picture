@@ -12,6 +12,7 @@ r.replace = function(answers) {
     if(answers.indexOf('黄海')!=-1&&answers.indexOf('潮海')!=-1) answers = answers.replace(/潮海/g, "渤海");
     answers = answers.replace(/绎脚石/g, "绊脚石");
     answers = answers.replace(/修营/g, "修葺");
+    answers = answers.replace(/斐秀/g, "裴秀");
     answers = answers.replace(/翡秀/g, "裴秀");
     answers = answers.replace(/奴婢bi/g, "奴婢bì");
     answers = answers.replace(/奴bi/g, "奴婢bì");
