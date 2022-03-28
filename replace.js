@@ -11,6 +11,8 @@ r.replace = function(answers) {
     if(answers.indexOf('辑拿')!=-1&&answers.indexOf('绳拿')!=-1) answers = answers.replace(/绳拿/g, "缉拿");
     if(answers.indexOf('黄海')!=-1&&answers.indexOf('潮海')!=-1) answers = answers.replace(/潮海/g, "渤海");
     answers = answers.replace(/悠气/g, "憋气");
+    answers = answers.replace(/0型/g, "O型");
+    answers = answers.replace(/o型/g, "O型");
     answers = answers.replace(/既往不智/g, "既往不咎");
     answers = answers.replace(/继脚石/g, "绊脚石");
     answers = answers.replace(/演合/g, "凑合");
